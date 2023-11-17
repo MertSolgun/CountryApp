@@ -1,0 +1,46 @@
+#searchDiv {
+  max-height: 200px;
+  max-width: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#searhcDiv::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  margin: 1px;
+  padding: 5px;
+}
+
+body {
+  background-image: url(./thumb-1920-400645.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 50px auto;
+}
+
+.card {
+  border: none !important;
+}
+.list-group {
+  background-color: rgba(1, 1, 1, 0.182) !important;
+}
+
+.list-group-item {
+  background-color: rgba(205, 223, 223, 0.6) !important;
+  color: black !important;
+}
+
+@media (max-width: 600px) {
+  #search {
+    width: 90% !important;
+  }
+  #searchDiv {
+    width: 100% !important;
+  }
+}
